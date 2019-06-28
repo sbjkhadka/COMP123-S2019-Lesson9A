@@ -50,7 +50,7 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.SevenButton.BackColor = System.Drawing.Color.SteelBlue;
-            this.SevenButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.SevenButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.SevenButton.ForeColor = System.Drawing.Color.White;
             this.SevenButton.Location = new System.Drawing.Point(3, 3);
             this.SevenButton.Name = "SevenButton";
@@ -62,6 +62,7 @@
             // 
             // NumberButtonTableLayoutPanel
             // 
+            this.NumberButtonTableLayoutPanel.BackColor = System.Drawing.Color.White;
             this.NumberButtonTableLayoutPanel.ColumnCount = 3;
             this.NumberButtonTableLayoutPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
             this.NumberButtonTableLayoutPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 33.33334F));
@@ -94,7 +95,7 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.ZeroButton.BackColor = System.Drawing.Color.SteelBlue;
-            this.ZeroButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ZeroButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ZeroButton.ForeColor = System.Drawing.Color.White;
             this.ZeroButton.Location = new System.Drawing.Point(109, 228);
             this.ZeroButton.Name = "ZeroButton";
@@ -110,7 +111,7 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.ThreeButton.BackColor = System.Drawing.Color.SteelBlue;
-            this.ThreeButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ThreeButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ThreeButton.ForeColor = System.Drawing.Color.White;
             this.ThreeButton.Location = new System.Drawing.Point(216, 153);
             this.ThreeButton.Name = "ThreeButton";
@@ -126,7 +127,7 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.TwoButton.BackColor = System.Drawing.Color.SteelBlue;
-            this.TwoButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TwoButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.TwoButton.ForeColor = System.Drawing.Color.White;
             this.TwoButton.Location = new System.Drawing.Point(109, 153);
             this.TwoButton.Name = "TwoButton";
@@ -142,7 +143,7 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.OneButton.BackColor = System.Drawing.Color.SteelBlue;
-            this.OneButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.OneButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.OneButton.ForeColor = System.Drawing.Color.White;
             this.OneButton.Location = new System.Drawing.Point(3, 153);
             this.OneButton.Name = "OneButton";
@@ -158,7 +159,7 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.SixButton.BackColor = System.Drawing.Color.SteelBlue;
-            this.SixButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.SixButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.SixButton.ForeColor = System.Drawing.Color.White;
             this.SixButton.Location = new System.Drawing.Point(216, 78);
             this.SixButton.Name = "SixButton";
@@ -174,7 +175,7 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.FiveButton.BackColor = System.Drawing.Color.SteelBlue;
-            this.FiveButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.FiveButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.FiveButton.ForeColor = System.Drawing.Color.White;
             this.FiveButton.Location = new System.Drawing.Point(109, 78);
             this.FiveButton.Name = "FiveButton";
@@ -190,7 +191,7 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.FourButton.BackColor = System.Drawing.Color.SteelBlue;
-            this.FourButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.FourButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.FourButton.ForeColor = System.Drawing.Color.White;
             this.FourButton.Location = new System.Drawing.Point(3, 78);
             this.FourButton.Name = "FourButton";
@@ -206,7 +207,7 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.NineButton.BackColor = System.Drawing.Color.SteelBlue;
-            this.NineButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.NineButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.NineButton.ForeColor = System.Drawing.Color.White;
             this.NineButton.Location = new System.Drawing.Point(216, 3);
             this.NineButton.Name = "NineButton";
@@ -222,7 +223,7 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.EightButton.BackColor = System.Drawing.Color.SteelBlue;
-            this.EightButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.EightButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.EightButton.ForeColor = System.Drawing.Color.White;
             this.EightButton.Location = new System.Drawing.Point(109, 3);
             this.EightButton.Name = "EightButton";
@@ -238,7 +239,7 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.button1.BackColor = System.Drawing.Color.Chartreuse;
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.Color.White;
             this.button1.Location = new System.Drawing.Point(216, 228);
             this.button1.Name = "button1";
@@ -265,7 +266,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Gainsboro;
-            this.ClientSize = new System.Drawing.Size(351, 441);
+            this.ClientSize = new System.Drawing.Size(351, 417);
             this.Controls.Add(this.ResultLabel);
             this.Controls.Add(this.NumberButtonTableLayoutPanel);
             this.Name = "Lesson9Forms";
