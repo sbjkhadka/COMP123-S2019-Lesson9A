@@ -1,6 +1,6 @@
 ﻿namespace COMP123_S2019_Lesson9A
 {
-    partial class Lesson9Forms
+    partial class CalculatorForm
     {
         /// <summary>
         /// Required designer variable.
@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.heightLabel = new System.Windows.Forms.TextBox();
             this.DecimalButton = new System.Windows.Forms.Button();
             this.DoneButton = new System.Windows.Forms.Button();
             this.ZeroButton = new System.Windows.Forms.Button();
@@ -45,15 +44,9 @@
             this.ResultLabel = new System.Windows.Forms.Label();
             this.OneButton = new System.Windows.Forms.Button();
             this.NumberButtonTableLayoutPanel = new System.Windows.Forms.TableLayoutPanel();
+            this.heightLabel = new System.Windows.Forms.Label();
             this.NumberButtonTableLayoutPanel.SuspendLayout();
             this.SuspendLayout();
-            // 
-            // heightLabel
-            // 
-            this.heightLabel.Location = new System.Drawing.Point(12, 12);
-            this.heightLabel.Name = "heightLabel";
-            this.heightLabel.Size = new System.Drawing.Size(100, 20);
-            this.heightLabel.TabIndex = 3;
             // 
             // DecimalButton
             // 
@@ -292,6 +285,7 @@
             this.ResultLabel.Name = "ResultLabel";
             this.ResultLabel.Size = new System.Drawing.Size(285, 64);
             this.ResultLabel.TabIndex = 2;
+            this.ResultLabel.Tag = "result";
             this.ResultLabel.Text = "0";
             this.ResultLabel.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
@@ -335,7 +329,7 @@
             this.NumberButtonTableLayoutPanel.Controls.Add(this.TwoButton, 1, 3);
             this.NumberButtonTableLayoutPanel.Controls.Add(this.OneButton, 0, 3);
             this.NumberButtonTableLayoutPanel.Controls.Add(this.ZeroButton, 0, 4);
-            this.NumberButtonTableLayoutPanel.Location = new System.Drawing.Point(1, 105);
+            this.NumberButtonTableLayoutPanel.Location = new System.Drawing.Point(1, 117);
             this.NumberButtonTableLayoutPanel.Name = "NumberButtonTableLayoutPanel";
             this.NumberButtonTableLayoutPanel.RowCount = 5;
             this.NumberButtonTableLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
@@ -347,26 +341,42 @@
             this.NumberButtonTableLayoutPanel.Size = new System.Drawing.Size(291, 324);
             this.NumberButtonTableLayoutPanel.TabIndex = 1;
             // 
-            // Lesson9Forms
+            // heightLabel
+            // 
+            this.heightLabel.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.heightLabel.BackColor = System.Drawing.Color.White;
+            this.heightLabel.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.heightLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.heightLabel.Location = new System.Drawing.Point(4, 50);
+            this.heightLabel.Name = "heightLabel";
+            this.heightLabel.Size = new System.Drawing.Size(285, 64);
+            this.heightLabel.TabIndex = 2;
+            this.heightLabel.Tag = "result";
+            this.heightLabel.Text = "0";
+            this.heightLabel.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.heightLabel.Click += new System.EventHandler(this.heightLabel_Click);
+            // 
+            // CalculatorForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Gainsboro;
-            this.ClientSize = new System.Drawing.Size(304, 441);
+            this.ClientSize = new System.Drawing.Size(291, 441);
             this.Controls.Add(this.heightLabel);
             this.Controls.Add(this.NumberButtonTableLayoutPanel);
-            this.Name = "Lesson9Forms";
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.MaximizeBox = false;
+            this.Name = "CalculatorForm";
             this.Text = "Calculator";
-            this.Load += new System.EventHandler(this.Lesson9Forms_Load);
+            this.Load += new System.EventHandler(this.CalculatorForm_Load);
             this.NumberButtonTableLayoutPanel.ResumeLayout(false);
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
         #endregion
-
-        private System.Windows.Forms.TextBox heightLabel;
         private System.Windows.Forms.Button DecimalButton;
         private System.Windows.Forms.Button DoneButton;
         private System.Windows.Forms.TableLayoutPanel NumberButtonTableLayoutPanel;
@@ -383,6 +393,7 @@
         private System.Windows.Forms.Button TwoButton;
         private System.Windows.Forms.Button OneButton;
         private System.Windows.Forms.Button ZeroButton;
+        private System.Windows.Forms.Label heightLabel;
     }
 }
 
